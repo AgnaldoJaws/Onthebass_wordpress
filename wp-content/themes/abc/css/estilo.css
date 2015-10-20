@@ -1,0 +1,38 @@
+
+	
+
+
+#home {
+	margin-top:-100px;
+	
+	}
+
+
+.espaco{
+	
+	
+	height:100px;
+	
+}
+
+.content-main{
+	width: 100%;
+	border: solid white 1px;
+	padding: 10px;
+	box-shadow: 1px 1px 1px 1px #888888;
+	
+}
+
+.texto {
+	
+	text-align:justify;
+	margin-left:155px;
+	margin-top: -150px;
+}
+
+.title h3{
+	
+	color: #555555;
+	
+}
+
