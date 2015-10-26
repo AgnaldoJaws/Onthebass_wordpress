@@ -1,25 +1,16 @@
 
+.row{
 	
-
-
-#home {
-	margin-top:-100px;
-	
-	}
-
-
-.espaco{
-	
-	
-	height:100px;
-	
+	margin-top: -80px;
 }
+
 
 .content-main{
 	width: 100%;
 	border: solid white 1px;
 	padding: 10px;
 	box-shadow: 1px 1px 1px 1px #888888;
+	margin-bottom: 20px;
 	
 }
 
@@ -27,12 +18,22 @@
 	
 	text-align:justify;
 	margin-left:155px;
-	margin-top: -150px;
+	margin-top: -157px;
+	
 }
 
+.title {
+	
+	margin-left: 200px;
+	margin-top: -20px;
+}
 .title h3{
 	
 	color: #555555;
 	
 }
 
+.imagem{
+	
+	margin-top: 10px;
+}

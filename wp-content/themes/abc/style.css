@@ -119,10 +119,7 @@ code {
 	white-space:normal !important;
 }
 
-ul {
-	list-style:none;
-	margin-left:0px !important;
-}
+
 
 iframe, 
 embed, 
@@ -174,7 +171,7 @@ a:focus {
 	outline: none;
 	padding: 12px 15px;
 	color: #fff;
-	margin: 35px 0 -10px 0;
+	margin-left:170px;
 	-webkit-transition: all .3s ease;
 	-moz-transition: all .3s ease;
 	-o-transition: all .3s ease;
@@ -183,8 +180,8 @@ a:focus {
 	text-align: left;
 	position: relative;
 	display: inline-block;
-	margin-top: -50px;
-	margin-left: 150px;
+	
+	
 }
 
 .button:hover {

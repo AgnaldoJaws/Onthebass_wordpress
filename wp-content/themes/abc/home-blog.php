@@ -1,17 +1,18 @@
 <div class="container content">
 	
-    <div class="row">
+    <div class="row " >
 
         <div class="<?php echo novalite_template('span')." ".novalite_template('sidebar'); ?>"> 
 
-            <div class="row">
+            <div class="row" id="row1">
             
                 <?php if ( have_posts() ) :  ?>
         
                     <?php while ( have_posts() ) : the_post(); ?>
-            
-                   <div class="title">
-						<a href="<?php the_permalink(); ?>" ><h1><?php the_title();?></h1></a>
+           
+             <div class="content-main">
+            	<div class="title">
+						<a href="<?php the_permalink(); ?>" ><h3><?php the_title();?></h3></a>
 						</div>
 						
 						<div class="imagem">
@@ -22,14 +23,11 @@
 						<div class="texto">
 						<a href="<?php the_permalink(); ?>" >	<?php the_excerpt();?>	</a>
 						</div>
-						<div class="pub">
-						<h4>
-						Publicado por <?php the_author()?>
-						 em <?php the_date("d/m/Y")?>
-				- <?php comments_number("Nenhum Comentário","1 Comentário","% comentários")?>
-				
-				</h4>
-						</div>
+						
+            
+            
+            </div>
+                   
 						
 				
 						

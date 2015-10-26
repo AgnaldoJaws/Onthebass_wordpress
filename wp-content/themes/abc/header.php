@@ -27,20 +27,12 @@
 	
 	
 		<div id="flip">
-			<h2 id="a">Menuuuuuu</h2>
+			<h2 id="a">Menu</h2>
 			<div id="menu">
 				<ul id="ulMenu">
-				
-				<li><a href="#tecnica" data-scroll>Sobre</a></li>
+				<li><a href="<?php echo get_option('home');?>">HOME</a></li>
+			       <li><?php wp_list_categories('title_li=');?>    </li>  
 					
-				<li><a href="#tecnica" data-scroll>Técnicas</a></li>
-				<li><a href="#teoria" data-scroll>Teoria</a>
-					
-					<li><a href="#suaBanda" data-scroll>Sua Banda</a></li>
-					<li><a href="#suaBanda" data-scroll>Contribuir</a></li>
-					<li><a href="#contato" data-scroll>Contato</a></li>
-					
-										
 
 				</ul>
 			</div>
@@ -48,9 +40,9 @@
 
 		<div id="panel">
 			<ul>
-				<li><a href="#suaBanda" data-scroll>Sua Banda</a></li>
-					<li><a href="#suaBanda" data-scroll>Contribuir</a></li>
-					<li><a href="#contato" data-scroll>Contato</a></li>
+				<li><a href="<?php echo get_option('home');?>">HOME</a></li>
+			       <li><?php wp_list_categories('title_li=');?>    </li>  
+				
 			
 			</ul>
 		</div>
@@ -61,6 +53,7 @@
 
 	
 
+
 	<script> 
 $(document).ready(function(){
     $("#a").click(function(){
@@ -69,4 +62,4 @@ $(document).ready(function(){
 });
 </script>
 
-	  <div class="espaco"></div>
+	 
